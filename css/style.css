@@ -1,15 +1,17 @@
 h2,
-h3 {
+h3,
+h4 {
 	font-size: 1em;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 15px;
+	text-align: center;
 }
 
 h2 {
-	text-align: center;
-	padding: 100px 0 10px 0;
+	padding: 50px 0 10px 0;
 	font-size: 1.5em;
 }
+
 
 h2::before {
 	content: "";
@@ -21,7 +23,6 @@ h2::before {
 	bottom: 2px;
 	transform: translateX(-50%);
 }
-
 
 .skills-icon {
 	padding: 25px;
@@ -41,4 +42,28 @@ h2::before {
 .circle i {
 	color: orange;
 	transform: translateY(40%);
+}
+
+.faq-content {
+	padding: 25px 0 35px 0;
+}
+
+.btn-link {
+	color: orange;
+}
+
+.btn-link:hover {
+	color: red;
+}
+
+.card-body {
+	color: darkslategrey;
+}
+
+.footer {
+	width: 100%;
+	background-color: grey;
+	color: #fff;
+	padding: 20px 0 10px 0;
+	text-align: center;
 }
